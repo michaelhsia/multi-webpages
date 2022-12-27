@@ -47,15 +47,109 @@ table {
 	border-spacing: 0;
 }
 
+/* layout outline */
+
+*{
+	outline: 1px solid #000;
+}
+
+/* layout */
+
 .wrap{
     width: 1024px;
     margin: 0 auto;
-    background-color: #343434;
 }
+
+/* layout header */
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+	background-color: #343434;
+	opacity: 0.95;
+}
+
+.header h1 a{
+	display: block;
+	width: 170px;
+	background-image: url(https://upload.cc/i1/2022/12/24/E8jq6s.png);
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 10px 0px;
+	margin: 18px 40px;
+}
+
+/* layout header navigation */
+
+.header ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header ul li{
+	margin-right: 22px;
+}
+
+.header ul li a{
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 30px 14px 25px;
+	border-bottom: 5px solid transparent;
+}
+
+.header ul li a:hover{
+	color: #00cf94;
+	border-bottom: 5px solid #00cf94;
+}
+
+.header ul li a:active{
+	color: #227700;
+	border-bottom: 5px solid #227700;
+}
+
+/* layout footer */
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #303228;
+}
+
+.footerlogo{
+	margin-top: 36px;
+	margin-bottom: 33px;
+	margin-left: 40px;
+}
+
+.footerlogo a{
+	display: block;
+	width: 170px;
+	background-image: url(https://upload.cc/i1/2022/12/24/E8jq6s.png);
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 10px 0px;
+	margin-bottom: 5px;
+}
+
+.footerlogo p{
+	color: #85877d;
+	text-align: right;
+}
+
+/* layout footer socaillink */
+
+.footer ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.footer ul li{
+	margin-right: 20px;
 }
