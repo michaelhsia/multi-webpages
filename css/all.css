@@ -66,8 +66,8 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
-	background-color: #343434;
-	opacity: 0.95;
+	background-color: rgb(52,52,52,0.5);
+	/* opacity: 0.5; */
 }
 
 .header h1 a{
@@ -152,4 +152,51 @@ table {
 
 .footer ul li{
 	margin-right: 20px;
+}
+
+/* index.html */
+
+.index_banner{
+	background-image: url(https://upload.cc/i1/2022/12/27/Tgbkzp.jpg);
+	background-position: 18% 38%;
+	padding-bottom: 137px;
+	background-size: 150%;
+}
+
+.index_banner p{
+	font-size: 44px;
+	color: #00cf94;
+	line-height: 1.7;
+	margin-top: 150px;
+	margin-left: 40px;
+
+}
+
+.index_banner p span{
+	color: #ffffff;
+}
+
+.index_banner .index_banner_btn{
+	display: block;
+	width: 211px;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.index_banner button{
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #00cf94;
+	background-image: url(https://upload.cc/i1/2022/12/27/LRU4Am.png);
+	background-position: 80% 50%;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	border: none;
+	padding: 16px 73px 16px 38px;
+	cursor: pointer;
+}
+
+.index_banner button:hover{
+	color: #00cf94;
+	background-color: #ffffff;
+	background-image: url(https://upload.cc/i1/2022/12/27/cqjwe3.png);
 }
