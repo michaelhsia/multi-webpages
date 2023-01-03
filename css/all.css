@@ -207,6 +207,15 @@ table {
 }
 
 
+/* general usage */
+
+/* enroll button */
+
+/* light-green title span */
+
+/* light-gray title */
+
+
 /* index.html content details */
 
 .index_content{
@@ -300,7 +309,6 @@ table {
 	color: #383838;
 	font-weight: bold;
 	text-align: center;
-	
 }
 
 .index_content table .table_title{
@@ -400,7 +408,7 @@ table {
 }
 
 
-/* course.html content lecturer */
+/* course.html content course-lecturer */
 
 .course_content{
 	padding: 60px 200px;
@@ -424,7 +432,7 @@ table {
 }
 
 .course_lecturer ul{
-	list-style: disc;
+	list-style: inside;
 }
 
 .course_lecturer li{
@@ -439,4 +447,103 @@ table {
 }
 
 
-/* course.html content details */
+/* course.html content course-details */
+
+.course_content .course_details p{
+	font-size: 16px;
+	color: #9e9e9e;
+	margin-bottom: 30px;
+}
+
+.course_content .course_details p span{
+	font-size: 36px;
+	color: #00cf94;
+}
+
+.course_content .course_details ol{
+	list-style: decimal;
+	margin-bottom: 57px;
+	margin-left: 20px;
+}
+
+.course_content .course_details li{
+	font-size: 14px;
+	color: #303228;
+	line-height: 1.3;
+}
+
+.course_content .course_details li:before{
+	content: "";
+	padding-left: 10px;
+}
+
+
+/* course.html content course-compare */
+
+.course_content .course_compare p{
+	font-size: 16px;
+	color: #9e9e9e;
+	margin-bottom: 30px;
+}
+
+.course_content .course_compare p span{
+	font-size: 36px;
+	color: #00cf94;
+}
+
+.course_content .course_compare table{
+	width: 100%;
+	font-size: 14px;
+	color: #9e9e9e;
+	margin-bottom: 58px;
+}
+
+.course_content .course_compare table td{
+	padding: 15px 37px;
+}
+
+.course_content .course_compare table .gray_bgc{
+	color: #303228;
+	background-color: #ececec;
+}
+
+
+/* course.html form */
+
+.course_form{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	background-color: #ececec;
+	padding: 150px 200px;
+}
+
+.course_form p{
+	font-size: 30px;
+	font-weight: bold;
+	color: #383838;
+	line-height: 2;
+}
+
+.course_form a{
+	display: block;
+	width: 211px;
+}
+.course_form button{
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #00cf94;
+	background-image: url(https://upload.cc/i1/2022/12/27/LRU4Am.png);
+	background-position: 80% 50%;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	border: none;
+	padding: 16px 73px 16px 38px;
+	cursor: pointer;
+}
+
+.course_form button:hover{
+	color: #00cf94;
+	background-color: #ffffff;
+	background-image: url(https://upload.cc/i1/2022/12/27/cqjwe3.png);
+}
