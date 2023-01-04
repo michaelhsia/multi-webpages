@@ -194,7 +194,7 @@ table {
 	font-size: 20px;
 	color: #ffffff;
 	background-color: #00cf94;
-	background-image: url(https://upload.cc/i1/2022/12/27/LRU4Am.png);
+	background-image: url(../images/button-arrow.png);
 	background-position: 80% 50%;
 	background-repeat: no-repeat;
 	border-radius: 5px;
@@ -206,7 +206,7 @@ table {
 .banner_button button:hover{
 	color: #00cf94;
 	background-color: #ffffff;
-	background-image: url(https://upload.cc/i1/2022/12/27/cqjwe3.png);
+	background-image: url(../images/button-arrow-colorchanged.png);
 }
 
 
@@ -377,7 +377,7 @@ table {
 /* course.html banner */
 
 .course_banner{
-	background-image: url(https://upload.cc/i1/2023/01/03/SQ5XNr.jpg);
+	background-image: url(../images/course-banner.jpg);
 	background-position: -13% 5%;
 }
 
@@ -539,7 +539,7 @@ table {
 	font-size: 20px;
 	color: #ffffff;
 	background-color: #00cf94;
-	background-image: url(https://upload.cc/i1/2022/12/27/LRU4Am.png);
+	background-image: url(../images/button-arrow.png);
 	background-position: 80% 50%;
 	background-repeat: no-repeat;
 	border-radius: 5px;
@@ -551,14 +551,14 @@ table {
 .course_form button:hover{
 	color: #00cf94;
 	background-color: #ffffff;
-	background-image: url(https://upload.cc/i1/2022/12/27/cqjwe3.png);
+	background-image: url(../images/button-arrow-colorchanged.png);
 }
 
 
 /* faq.html banner */
 
 .faq_banner{
-	background: url(https://upload.cc/i1/2023/01/04/qYgAFe.jpg) 50% 32%;
+	background: url(../images/faq-banner.jpg) 50% 32%;
 }
 
 .faq_banner_text{
