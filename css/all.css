@@ -134,7 +134,7 @@ table {
 .footerlogo a{
 	display: block;
 	width: 170px;
-	background-image: url(https://github.com/michaelhsia/multi-webpages/tree/main/images/footer-logo.png);
+	background-image: url(https://github.com/michaelhsia/multi-webpages/blob/main/images/footer-logo.png);
 	text-indent: 101%;
 	overflow: hidden;
 	white-space: nowrap;
