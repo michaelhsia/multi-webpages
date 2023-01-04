@@ -51,8 +51,11 @@ table {
 /* layout outline */
 
 *{
-	/* outline: 1px solid #000; */
+	outline: 1px solid #000;
 }
+
+
+
 
 
 /* layout */
@@ -131,7 +134,7 @@ table {
 .footerlogo a{
 	display: block;
 	width: 170px;
-	background-image: url(../images/footer-logo.png);
+	background-image: url(.../images/footer-logo.png);
 	text-indent: 101%;
 	overflow: hidden;
 	white-space: nowrap;
