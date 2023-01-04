@@ -165,7 +165,7 @@ table {
 /* index.html banner*/
 
 .index_banner{
-	background-image: url(images/.index_banner.jpg);
+	background-image: url(../images/index-banner.jpg);
 	background-position: 18% 38%;
 	padding-bottom: 137px;
 	background-size: 150%;
