@@ -367,6 +367,9 @@ table {
 	padding: 14px 38px;
 }
 
+.index_form .index_info .submit_btn:hover{
+	background-color: #278203;
+}
 
 /* course.html banner */
 
@@ -521,7 +524,7 @@ table {
 .course_form p{
 	font-size: 30px;
 	font-weight: bold;
-	color: #383838;
+	color: #303228;
 	line-height: 2;
 }
 
@@ -546,4 +549,163 @@ table {
 	color: #00cf94;
 	background-color: #ffffff;
 	background-image: url(https://upload.cc/i1/2022/12/27/cqjwe3.png);
+}
+
+
+/* faq.html banner */
+
+.faq_banner{
+	background: url(https://upload.cc/i1/2023/01/04/qYgAFe.jpg) 50% 32%;
+}
+
+.faq_banner_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 108px 0 191px;
+}
+
+.faq_banner_text h2{
+	font-size: 44px;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+
+.faq_banner_text p{
+	font-size: 24px;
+	color: #00cf94;
+	margin-bottom: 50px;
+}
+
+.faq_banner_text form{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 630px;
+	background-color: #ffffff;
+	border-radius: 7px;
+	padding: 5px;
+}
+
+.faq_banner_text input{
+	width: 550px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+}
+
+.faq_banner_text label img{
+	margin: 10px;
+}
+
+/* faq_content */
+
+.faq_content{
+	padding: 60px 125px;
+}
+
+.faq_content h2{
+	font-size: 36px;
+	color:#00cf94;
+	margin-bottom: 34px;
+}
+
+.faq_content h2 span{
+	font-size: 16px;
+	color: #9e9e9e;
+}
+
+.faq_content li{
+	margin-bottom: 32px;
+	line-height: 1.3;
+}
+
+.faq_content li h3{
+	font-size: 16px;
+	color: #303228;
+}
+
+.faq_content li p{
+	font-size: 14px;
+	color: #9e9e9e; 
+}
+
+.faq_content li p a{
+	text-decoration: none;
+	color: #00cf94;
+}
+
+.faq_content li p a:hover{
+	color: #278203;
+}
+
+.faq_content .refund .refund_step li{
+	list-style: inside;
+	font-size: 14px;
+	color: #9e9e9e;
+	margin: 0 0 0 28px;
+}
+
+.faq_content .refund .refund_step li:before{
+	content: "";
+	padding-left: 20px;
+}
+
+.faq_content .refund .after_refund{
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.faq_content .refund .after_refund li{
+	list-style: inside;
+	font-size: 14px;
+	color: #9e9e9e;
+	margin: 0 0 0 28px;
+}
+
+.faq_content .refund .after_refund li:before{
+	content: "";
+	padding-left: 20px;
+}
+
+
+.faq_form{
+	display: flex;
+	justify-content: space-between;
+	background-color: #ececec;
+	padding: 100px 42px 50px 42px;
+}
+
+.faq_form form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.faq_form h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #303228;
+	line-height: 2;
+}
+
+.faq_form form input, textarea{
+	width: 400px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	padding: 12px 18px;
+	margin-bottom: 20px;
+}
+
+.faq_form form .submit_btn{
+	width: 160px;
+	color: #ffffff;
+	background-color: #00cf94;
+	padding: 14px 38px;
+}
+
+.faq_form form .submit_btn:hover{
+	background-color: #278203;
 }
